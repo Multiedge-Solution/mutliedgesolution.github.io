@@ -1,0 +1,115 @@
+.fas.fa-check-circle {
+    color: #28a745; /* Professional green */
+    font-size: 1.5rem; /* Moderate icon size */
+    margin-right: 15px; /* Space between icon and text */
+    border-radius: 50%; /* Rounded icon for a clean, modern feel */
+    padding: 8px; /* Padding inside the icon for a well-rounded look */
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Hover Effect */
+  .fas.fa-check-circle:hover {
+    color: #007bff; /* Change to blue on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for depth */
+  }
+  
+  /* Additional subtle animation for the icon */
+  .fas.fa-check-circle {
+    animation: fadeIn 1s ease-out; /* Fade-in effect */
+  }
+  
+  /* Keyframes for fade-in */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Text Styling */
+  h5 {
+    font-weight: 600; /* Bold but professional text */
+    font-size: 1.2rem; /* Adjusted text size */
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 10px;
+  }
+
+  /* Service item styling */
+.service-item {
+    display: flex;
+    align-items: center; /* Align the icon and text */
+    margin-bottom: 12px; /* Space between items */
+  }
+  
+  .service-item i {
+    color: #28a745;  /* Green color for the check icon */
+    font-size: 1.5rem;  /* Slightly larger icon */
+    margin-right: 10px;  /* Space between icon and text */
+  }
+  
+  .service-item span {
+    font-size: 1.1rem;
+    color: #333;  /* Dark color for the text */
+    line-height: 1.6;  /* Better line spacing */
+    display: inline-block;
+    text-align: left;
+    max-width: 90%;  /* Ensure the text doesn't overflow */
+  }
+
+  .read-more-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #007bff, #0056b3); /* Gradient background */
+    border: none;
+    border-radius: 30px; /* More rounded corners */
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transitions */
+    text-transform: uppercase; /* Uppercase text */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4); /* More pronounced shadow */
+    position: relative; /* For pseudo-element positioning */
+    overflow: hidden; /* To contain the pseudo-element */
+    outline: none;
+}
+
+.read-more-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2); /* Light overlay */
+    border-radius: 50%;
+    transition: transform 0.5s; /* Smooth transition for the overlay */
+    transform: translate(-50%, -50%) scale(0); /* Start hidden */
+    z-index: 0; /* Behind the text */
+    outline: none;
+}
+
+.read-more-btn:hover::after {
+    transform: translate(-50%, -50%) scale(1); /* Show overlay on hover */
+}
+
+.read-more-btn:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.6); /* Stronger shadow on hover */
+}
+
+.read-more-btn:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}
+
+#text-service {
+  text-align: center; 
+  color: #6C55F9; 
+  font-weight: bold;
+}
