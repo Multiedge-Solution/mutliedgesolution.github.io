@@ -520,40 +520,6 @@
             </ul>
           </div>
 
-          <?php
-// Check if form is submitted
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Get form inputs
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-
-    // Define recipient and subject
-    $to = "prashantkumar2005pkk@gmail.com"; // Recipient's email address
-    $subject = "Message from: " . $name; // Email subject
-
-    // Construct the email message
-    $email_message = "<html><body>";
-    $email_message .= "<h2>New message from Contact Form</h2>";
-    $email_message .= "<p><strong>Name:</strong> " . $name . "</p>";
-    $email_message .= "<p><strong>Email:</strong> " . $email . "</p>";
-    $email_message .= "<p><strong>Message:</strong><br>" . nl2br($message) . "</p>";
-    $email_message .= "</body></html>";
-
-    // Set headers
-    $headers = "From: " . $email . "\r\n"; // Sender's email address
-    $headers .= "Reply-To: " . $email . "\r\n"; // Reply-to address
-    $headers .= "Content-type: text/html; charset=UTF-8\r\n"; // Set content type to HTML
-
-    // Send the email
-    if (mail($to, $subject, $email_message, $headers)) {
-        $status_message = "Email sent successfully!";
-    } else {
-        $status_message = "Failed to send email.";
-    }
-}
-?>
-
 <div class="col-lg-6 py-3 wow fadeInUp">
     <div class="subhead">Contact Us</div>
     <h2 class="title-section">Drop Us a Line</h2>
@@ -572,12 +538,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
     </form>
-
-    <?php if (isset($status_message)) : ?>
-        <div class="alert alert-info mt-4">
-            <?php echo $status_message; ?>
-        </div>
-    <?php endif; ?>
 </div>
 
   
