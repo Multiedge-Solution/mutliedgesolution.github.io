@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <title>Multiedge Solutions</title>
+  
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+  
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+  
+    <link rel="stylesheet" href="assets/css/maicons.css">
+  
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.css">
+  
+    <link rel="stylesheet" href="assets/css/theme.css">
+  
+    <link rel="stylesheet" href="assets/css/style.css">
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+    <script src="assets/js/script.js"></script>
+  
+  </head>
+<body>
+
+  <!-- Back to top button -->
+  <div class="back-to-top"></div>
+
+  <?php
+    include 'header-page.php'
+  ?>
+  <header>
+  <div class="container mt-5">
+      <div class="page-banner">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-md-6">
+            <nav aria-label="Breadcrumb">
+              <ul class="breadcrumb justify-content-center py-0 bg-transparent">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item active">Services</li>
+              </ul>
+            </nav>
+            <h1 class="text-center">Services</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-3">
+            <h2 class="title-section">We're <span class="marked">ready to</span> Serve you with best</h2>
+            <div class="divider"></div>
+            <p class="mb-5">At Multiedge Solutions, we offer expert IT solutions designed for startups and small businesses seeking reliable partners in their digital transformation journey. Our comprehensive suite of services includes custom Website Development, Software Development, innovative Graphic Designing, data-driven Digital Marketing, creative Video Editing, GST Services, and Online Forms – all crafted to help you scale your business, engage your target audience, and strengthen your brand presence in the digital realm. Whether you’re looking to build a high-performing website, develop custom software, enhance your brand with captivating designs, drive targeted traffic through effective marketing, or manage GST compliance, we provide tailored solutions that deliver measurable results and foster long-term growth.</p>
+            <a href="about.php" class="btn btn-primary">More Details</a>
+            <!-- <a href="#" class="btn btn-outline ml-2">See pricing</a> -->
+          </div>
+          <div class="col-lg-6 py-3">
+            <div class="img-place text-center">
+              <img src="assets/img/bg_image_3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div> <!-- .container -->
+    </div> <!-- .page-section -->
+
+
+    <div class="page-section features">
+    <h2 class="subhead" id="text-service">Services</h2>
+    <div class="divider mx-auto"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Website Development Section -->
+            <div class="col-12 col-sm-6 col-md-4 py-3 wow fadeInUp">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="img-fluid mb-3">
+                        <img src="assets/img/icon_pattern.svg" alt="Website Development Icon">
+                    </div>
+                    <div>
+                      <div>
+                        <h5 class="pt-2 pb-3">Website Development</h5>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Custom Website Design
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Responsive Design
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> E-commerce Solutions
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Content Management Systems (CMS)
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Web Application Development
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Digital Marketing Section -->
+            <div class="col-12 col-sm-6 col-md-4 py-3 wow fadeInUp">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="img-fluid mb-3">
+                        <img src="assets/img/icon_pattern.svg" alt="Digital Marketing Icon">
+                    </div>
+                      <div>
+                        <h5 class="pt-2 pb-3">Digital Marketing</h5>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Search Engine Optimization (SEO)
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Pay-Per-Click (PPC) Advertising
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Social Media Marketing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Email Marketing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Content Marketing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Online Reputation Management
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Graphic Designing Section -->
+            <div class="col-12 col-sm-6 col-md-4 py-3 wow fadeInUp">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="img-fluid mb-3">
+                        <img src="assets/img/icon_pattern.svg" alt="Graphic Design Icon">
+                    </div>
+                      <div>
+                        <h5 class="pt-2 pb-3">Graphic Designing</h5>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Brand Identity Design
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Web & UI Design
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Social Media Graphics
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Packaging Design
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Infographics & Illustrations
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Packaging Design
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 py-3 wow fadeInUp">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="img-fluid mb-3">
+                        <img src="assets/img/icon_pattern.svg" alt="Video Editing Icon">
+                    </div>
+                      <div>
+                        <h5 class="pt-2 pb-3">Video Editing</h5>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Custom Video Editing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Social Media Videos
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> YouTube & Vlog Editing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Product Videos
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Animation & Motion Graphics
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 py-3 wow fadeInUp">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="img-fluid mb-3">
+                        <img src="assets/img/icon_pattern.svg" alt="Video Editing Icon">
+                    </div>
+                      <div>
+                        <h5 class="pt-2 pb-3">GST Services</h5>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> GST Registration
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> GST Return Filing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Income Tax Filing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> TDS Filing
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Accounting Work
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 py-3 wow fadeInUp">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="img-fluid mb-3">
+                        <img src="assets/img/icon_pattern.svg" alt="Video Editing Icon">
+                    </div>
+                      <div>
+                        <h5 class="pt-2 pb-3">Online Forms</h5>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Driving License Application
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> PAN Card Application
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Voter ID Card Registration
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Aadhar Card Update & New Aadhar Registration
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Passport Application
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Ration Card Application
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Birth and Death Certificate Application
+                        </div>
+                        <div class="service-item">
+                          <i class="fas fa-check-circle"></i> Income Certificate
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div> <!-- .row -->
+    </div> <!-- .container -->
+</div> <!-- .page-section -->
+
+
+  
+    <div class="page-section">
+      <div class="container">
+        <div class="text-center">
+          <div class="subhead">Why Choose Us</div>
+          <h2 class="title-section">Your <span class="marked">Comfort</span> is Our Priority</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+  
+        <div class="row mt-5 text-center">
+          <div class="col-lg-4 py-3 wow fadeInUp">
+              <div class="display-3"><span class="mai-shapes"></span></div>
+              <h5>High Performance</h5>
+              <p id="highPerformanceText" class="short-text">We are committed to delivering top-tier IT solutions that ensure optimal performance for your business. Whether it’s building high-speed, responsive websites, running high-conversion digital marketing campaigns, or producing stunning visuals, our services are designed to deliver exceptional results every time. Our focus is on quality, reliability, and measurable success that keeps your business ahead of the competition.</p>
+              <button class="read-more-btn" onclick="toggleText('highPerformanceText')">Read More</button>
+          </div>
+
+          <div class="col-lg-4 py-3 wow fadeInUp">
+              <div class="display-3"><span class="mai-shapes"></span></div>
+              <h5>Friendly Prices</h5>
+              <p id="friendlyPricesText" class="short-text">We understand the challenges businesses face, especially startups and small enterprises, when managing costs. That’s why we offer affordable IT solutions without compromising on quality. Our pricing is transparent, flexible, and tailored to meet the specific needs of your business, ensuring that you get the most value for your investment.</p>
+              <button class="read-more-btn" onclick="toggleText('friendlyPricesText')">Read More</button>
+          </div>
+
+          <div class="col-lg-4 py-3 wow fadeInUp">
+              <div class="display-3"><span class="mai-shapes"></span></div>
+              <h5>No Time-Confusing</h5>
+              <p id="noTimeConfusingText" class="short-text">We respect your time and prioritize efficiency in everything we do. With our streamlined processes, we provide fast turnarounds, keeping your projects on schedule without unnecessary delays. Whether it's launching your new website, executing a digital marketing campaign, or delivering a design, we ensure that the job gets done on time and within your expectations.</p>
+              <button class="read-more-btn" onclick="toggleText('noTimeConfusingText')">Read More</button>
+          </div>
+      </div>
+
+      </div> <!-- .container -->
+    </div> <!-- .page-section -->
+  </main>
+
+<?php
+  include 'footer.php';
+?>
+
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/vendor/wow/wow.min.js"></script>
+
+  <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="assets/js/google-maps.js"></script>
+
+  <script src="assets/js/theme.js"></script>
+
+
+</body>
+</html>
